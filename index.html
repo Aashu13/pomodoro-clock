@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Pomodoro clock</title>
+    <link rel="stylesheet" href="css folder/bootstrap.min.css">
+    <link rel="stylesheet" href="css folder/font-awesome.min.css">
+    <link rel="stylesheet" href="css folder/style.css">
+</head>
+
+<body>
+
+    <h2>Pomodoro clock</h2>
+
+    <div class="wrapper">
+        <div class="container">
+            <audio src="ringtone/time_is_running_out.mp3" id="buzzer"></audio>
+
+
+            <div id="timerSection">
+                <h3 id="Session_text">Session Time</h3>
+                <div id="SessionTimer_div">
+                    <span id="SessionTimer_span"></span>
+                    <span id="SessionSecond_span"></span>
+                </div>
+                <div id="BreakTimer_div">
+                    <span id="BreakTimer_span"></span>
+                    <span id="BreakSecond_span"></span>
+                </div>
+            </div>
+
+
+            <div class="btnContainer">
+                <div class="Sessionbtn">
+                    <p>Add Session Length</p>
+                    <button>
+                        <i class="fa fa-plus" id="increaseSessionLength_btn"></i>
+                    </button>
+                    <span id="Sessionlength_span"></span>
+                    <button>
+                        <i class="fa fa-minus" id="decreaseSessionLength_btn"></i>
+                    </button>
+                </div>
+
+                <div class="breakbtn">
+                    <p>Add Break Length</p>
+                    <button>
+                        <i class="fa fa-plus" id="increaseBreakLength_btn"></i>
+                    </button>
+                    <span id="Breaklength_span"></span>
+                    <button>
+                        <i class="fa fa-minus" id="decreaseBreakLength_btn"></i>
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="start_button">
+                <button>
+                    <i class="fa fa-play" id="startTimer_play_btn"></i>
+                    <i class="fa fa-pause" id="stopTimer_pause_btn"></i>
+                </button>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <script src="js folder/jquery-3.3.1.min.js"></script>
+    <script src="js folder/main.js"></script>
+</body>
+
+</html>

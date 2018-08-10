@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+h2 {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #ddd;
+  text-shadow: 2px 3px 4px #000;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: 60px;
+}
+
+.container {
+  width: 55%;
+  min-width: 250px;
+  max-width: 350px;
+  margin: auto;
+  padding-bottom: 40px;
+  background: #ffff;
+  border-radius: 10px;
+}
+
+#timerSection {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+#SessionTimer_div {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  margin: auto;
+}
+
+#timerSection {
+  font-size: 40px;
+}
+
+#BreakTimer_div {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  margin: auto;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  display: none;
+}
+
+.btnContainer {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.btnContainer button {
+  width: 30%;
+  height: 30px;
+  border: none;
+  background: transparent;
+}
+
+.Sessionbtn {
+  width: 59%;
+  display: inline-block;
+}
+
+.breakbtn {
+  width: 39%;
+  display: inline-block;
+}
+
+.start_button {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+#stopTimer_pause_btn {
+  display: none;
+}
+
+.start_button button {
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  border-radius: 50% !important;
+  border: none;
+  background: skyblue;
+  outline-style: none;
+  box-shadow: 2px 1px 2px 2px #ddd;
+}
+
+.start_button button:hover {
+  box-shadow: none;
+  transition: 1s;
+}
